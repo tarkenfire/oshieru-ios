@@ -2,17 +2,17 @@
 //  ViewController.m
 //  Oshieru
 //
-//  Created by マイケル マンキュソ on 8/10/13.
+//  Created by Michael Mancuso on 8/10/13.
 //  Copyright (c) 2013 Hinode Softworks. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainMenuViewController.h"
 
-@interface ViewController ()
+@interface MainMenuViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MainMenuViewController
 
 - (void)viewDidLoad
 {

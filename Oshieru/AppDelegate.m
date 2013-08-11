@@ -2,13 +2,13 @@
 //  AppDelegate.m
 //  Oshieru
 //
-//  Created by マイケル マンキュソ on 8/10/13.
+//  Created by Michael Mancuso on 8/10/13.
 //  Copyright (c) 2013 Hinode Softworks. All rights reserved.
 //
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "MainMenuViewController.h"
 
 @implementation AppDelegate
 
@@ -16,8 +16,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    MainMenuViewController* mainView = [[MainMenuViewController alloc] initWithNibName:@"MainMenuViewController" bundle:nil];
+    
+    UINavigationController* navController = [[UINavigationController alloc] initWithRootViewController:mainView];
+    
+    self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
     return YES;
 }

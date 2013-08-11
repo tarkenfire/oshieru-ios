@@ -16,8 +16,10 @@
 		98043F3817B68EDD004AC762 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F3717B68EDD004AC762 /* Default.png */; };
 		98043F3A17B68EDD004AC762 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F3917B68EDD004AC762 /* Default@2x.png */; };
 		98043F3C17B68EDD004AC762 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F3B17B68EDD004AC762 /* Default-568h@2x.png */; };
-		98043F3F17B68EDD004AC762 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043F3E17B68EDD004AC762 /* ViewController.m */; };
-		98043F4217B68EDD004AC762 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98043F4017B68EDD004AC762 /* ViewController.xib */; };
+		98043F3F17B68EDD004AC762 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043F3E17B68EDD004AC762 /* MainMenuViewController.m */; };
+		98043F4217B68EDD004AC762 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98043F4017B68EDD004AC762 /* MainMenuViewController.xib */; };
+		98043F6217B7E0DC004AC762 /* CharacterMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043F6017B7E0DC004AC762 /* CharacterMenuViewController.m */; };
+		98043F6317B7E0DC004AC762 /* CharacterMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98043F6117B7E0DC004AC762 /* CharacterMenuViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +36,12 @@
 		98043F3717B68EDD004AC762 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		98043F3917B68EDD004AC762 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		98043F3B17B68EDD004AC762 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		98043F3D17B68EDD004AC762 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		98043F3E17B68EDD004AC762 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		98043F4117B68EDD004AC762 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		98043F3D17B68EDD004AC762 /* MainMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		98043F3E17B68EDD004AC762 /* MainMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		98043F4117B68EDD004AC762 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenuViewController.xib; sourceTree = "<group>"; };
+		98043F5F17B7E0DC004AC762 /* CharacterMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterMenuViewController.h; sourceTree = "<group>"; };
+		98043F6017B7E0DC004AC762 /* CharacterMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterMenuViewController.m; sourceTree = "<group>"; };
+		98043F6117B7E0DC004AC762 /* CharacterMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterMenuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +88,8 @@
 		98043F2B17B68EDD004AC762 /* Oshieru */ = {
 			isa = PBXGroup;
 			children = (
-				98043F3417B68EDD004AC762 /* AppDelegate.h */,
-				98043F3517B68EDD004AC762 /* AppDelegate.m */,
-				98043F3D17B68EDD004AC762 /* ViewController.h */,
-				98043F3E17B68EDD004AC762 /* ViewController.m */,
-				98043F4017B68EDD004AC762 /* ViewController.xib */,
+				98043F5917B7E049004AC762 /* Images */,
+				98043F4817B7DE8E004AC762 /* Views */,
 				98043F2C17B68EDD004AC762 /* Supporting Files */,
 			);
 			path = Oshieru;
@@ -96,6 +98,8 @@
 		98043F2C17B68EDD004AC762 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				98043F3417B68EDD004AC762 /* AppDelegate.h */,
+				98043F3517B68EDD004AC762 /* AppDelegate.m */,
 				98043F2D17B68EDD004AC762 /* Oshieru-Info.plist */,
 				98043F2E17B68EDD004AC762 /* InfoPlist.strings */,
 				98043F3117B68EDD004AC762 /* main.m */,
@@ -105,6 +109,170 @@
 				98043F3B17B68EDD004AC762 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98043F4817B7DE8E004AC762 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				98043F4917B7DED7004AC762 /* Main Menu */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		98043F4917B7DED7004AC762 /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				98043F4C17B7DF0B004AC762 /* Vocabulary Section */,
+				98043F4B17B7DEFC004AC762 /* Grammar Section */,
+				98043F4A17B7DEEF004AC762 /* Characters Section */,
+				98043F3D17B68EDD004AC762 /* MainMenuViewController.h */,
+				98043F3E17B68EDD004AC762 /* MainMenuViewController.m */,
+				98043F4017B68EDD004AC762 /* MainMenuViewController.xib */,
+			);
+			name = "Main Menu";
+			sourceTree = "<group>";
+		};
+		98043F4A17B7DEEF004AC762 /* Characters Section */ = {
+			isa = PBXGroup;
+			children = (
+				98043F6417B7E10A004AC762 /* Katakana and Hiragana */,
+				98043F5317B7DFED004AC762 /* Kanji Viewer */,
+				98043F5F17B7E0DC004AC762 /* CharacterMenuViewController.h */,
+				98043F6017B7E0DC004AC762 /* CharacterMenuViewController.m */,
+				98043F6117B7E0DC004AC762 /* CharacterMenuViewController.xib */,
+			);
+			name = "Characters Section";
+			sourceTree = "<group>";
+		};
+		98043F4B17B7DEFC004AC762 /* Grammar Section */ = {
+			isa = PBXGroup;
+			children = (
+				98043F5617B7E012004AC762 /* Sentence Quizzer */,
+				98043F5517B7E002004AC762 /* Adjective Sifter */,
+				98043F5417B7DFFC004AC762 /* Verb Sifter */,
+			);
+			name = "Grammar Section";
+			sourceTree = "<group>";
+		};
+		98043F4C17B7DF0B004AC762 /* Vocabulary Section */ = {
+			isa = PBXGroup;
+			children = (
+				98043F5817B7E02B004AC762 /* Vocab List Viewer */,
+				98043F5717B7E01E004AC762 /* Vocab Set List */,
+			);
+			name = "Vocabulary Section";
+			sourceTree = "<group>";
+		};
+		98043F5317B7DFED004AC762 /* Kanji Viewer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Kanji Viewer";
+			sourceTree = "<group>";
+		};
+		98043F5417B7DFFC004AC762 /* Verb Sifter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Verb Sifter";
+			sourceTree = "<group>";
+		};
+		98043F5517B7E002004AC762 /* Adjective Sifter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Adjective Sifter";
+			sourceTree = "<group>";
+		};
+		98043F5617B7E012004AC762 /* Sentence Quizzer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Sentence Quizzer";
+			sourceTree = "<group>";
+		};
+		98043F5717B7E01E004AC762 /* Vocab Set List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Vocab Set List";
+			sourceTree = "<group>";
+		};
+		98043F5817B7E02B004AC762 /* Vocab List Viewer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Vocab List Viewer";
+			sourceTree = "<group>";
+		};
+		98043F5917B7E049004AC762 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				98043F5E17B7E093004AC762 /* Stroke Orders */,
+				98043F5D17B7E080004AC762 /* Gutters and Backgrounds */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		98043F5A17B7E052004AC762 /* Grammar Section */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Grammar Section";
+			sourceTree = "<group>";
+		};
+		98043F5B17B7E059004AC762 /* Character Section */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Character Section";
+			sourceTree = "<group>";
+		};
+		98043F5C17B7E06F004AC762 /* Vocabulary Section */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Vocabulary Section";
+			sourceTree = "<group>";
+		};
+		98043F5D17B7E080004AC762 /* Gutters and Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				98043F5C17B7E06F004AC762 /* Vocabulary Section */,
+				98043F5B17B7E059004AC762 /* Character Section */,
+				98043F5A17B7E052004AC762 /* Grammar Section */,
+			);
+			name = "Gutters and Backgrounds";
+			sourceTree = "<group>";
+		};
+		98043F5E17B7E093004AC762 /* Stroke Orders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Stroke Orders";
+			sourceTree = "<group>";
+		};
+		98043F6417B7E10A004AC762 /* Katakana and Hiragana */ = {
+			isa = PBXGroup;
+			children = (
+				98043F6617B7E11C004AC762 /* Quizzer */,
+				98043F6517B7E115004AC762 /* List */,
+			);
+			name = "Katakana and Hiragana";
+			sourceTree = "<group>";
+		};
+		98043F6517B7E115004AC762 /* List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		98043F6617B7E11C004AC762 /* Quizzer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Quizzer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +330,8 @@
 				98043F3817B68EDD004AC762 /* Default.png in Resources */,
 				98043F3A17B68EDD004AC762 /* Default@2x.png in Resources */,
 				98043F3C17B68EDD004AC762 /* Default-568h@2x.png in Resources */,
-				98043F4217B68EDD004AC762 /* ViewController.xib in Resources */,
+				98043F4217B68EDD004AC762 /* MainMenuViewController.xib in Resources */,
+				98043F6317B7E0DC004AC762 /* CharacterMenuViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +344,8 @@
 			files = (
 				98043F3217B68EDD004AC762 /* main.m in Sources */,
 				98043F3617B68EDD004AC762 /* AppDelegate.m in Sources */,
-				98043F3F17B68EDD004AC762 /* ViewController.m in Sources */,
+				98043F3F17B68EDD004AC762 /* MainMenuViewController.m in Sources */,
+				98043F6217B7E0DC004AC762 /* CharacterMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,12 +360,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		98043F4017B68EDD004AC762 /* ViewController.xib */ = {
+		98043F4017B68EDD004AC762 /* MainMenuViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				98043F4117B68EDD004AC762 /* en */,
 			);
-			name = ViewController.xib;
+			name = MainMenuViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
