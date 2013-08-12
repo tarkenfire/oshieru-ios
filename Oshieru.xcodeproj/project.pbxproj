@@ -20,6 +20,54 @@
 		98043F4217B68EDD004AC762 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98043F4017B68EDD004AC762 /* MainMenuViewController.xib */; };
 		98043F6217B7E0DC004AC762 /* CharacterMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043F6017B7E0DC004AC762 /* CharacterMenuViewController.m */; };
 		98043F6317B7E0DC004AC762 /* CharacterMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98043F6117B7E0DC004AC762 /* CharacterMenuViewController.xib */; };
+		98043F6A17B7E229004AC762 /* KanaListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043F6817B7E229004AC762 /* KanaListViewController.m */; };
+		98043F6B17B7E229004AC762 /* KanaListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98043F6917B7E229004AC762 /* KanaListViewController.xib */; };
+		98043F6F17B7E234004AC762 /* KanaQuizzerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043F6D17B7E234004AC762 /* KanaQuizzerViewController.m */; };
+		98043F7017B7E234004AC762 /* KanaQuizzerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98043F6E17B7E234004AC762 /* KanaQuizzerViewController.xib */; };
+		98043F7417B7E273004AC762 /* KanaViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043F7217B7E273004AC762 /* KanaViewerViewController.m */; };
+		98043F7517B7E273004AC762 /* KanaViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98043F7317B7E273004AC762 /* KanaViewerViewController.xib */; };
+		98043F8E17B7E3FF004AC762 /* gramSelect_top_gutter.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F7617B7E3FF004AC762 /* gramSelect_top_gutter.png */; };
+		98043F8F17B7E3FF004AC762 /* gramSelect_bottom_gutter.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F7717B7E3FF004AC762 /* gramSelect_bottom_gutter.png */; };
+		98043F9017B7E3FF004AC762 /* sentenceButton_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F7817B7E3FF004AC762 /* sentenceButton_highlighted.png */; };
+		98043F9117B7E3FF004AC762 /* sentenceButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F7917B7E3FF004AC762 /* sentenceButton.png */; };
+		98043F9217B7E3FF004AC762 /* adjButton_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F7A17B7E3FF004AC762 /* adjButton_highlighted.png */; };
+		98043F9317B7E3FF004AC762 /* adjButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F7B17B7E3FF004AC762 /* adjButton.png */; };
+		98043F9417B7E3FF004AC762 /* verbConjButton_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F7C17B7E3FF004AC762 /* verbConjButton_highlighted.png */; };
+		98043F9517B7E3FF004AC762 /* verbConjButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F7D17B7E3FF004AC762 /* verbConjButton.png */; };
+		98043F9617B7E3FF004AC762 /* charPage_top_gutter.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F7E17B7E3FF004AC762 /* charPage_top_gutter.png */; };
+		98043F9717B7E3FF004AC762 /* pink_bottom_gutter.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F7F17B7E3FF004AC762 /* pink_bottom_gutter.png */; };
+		98043F9817B7E3FF004AC762 /* kanjiButton_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F8017B7E3FF004AC762 /* kanjiButton_highlighted.png */; };
+		98043F9917B7E3FF004AC762 /* kanjiButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F8117B7E3FF004AC762 /* kanjiButton.png */; };
+		98043F9A17B7E3FF004AC762 /* katakanaButton_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F8217B7E3FF004AC762 /* katakanaButton_highlighted.png */; };
+		98043F9B17B7E3FF004AC762 /* katakanaButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F8317B7E3FF004AC762 /* katakanaButton.png */; };
+		98043F9C17B7E3FF004AC762 /* hiraganaButton_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F8417B7E3FF004AC762 /* hiraganaButton_highlighted.png */; };
+		98043F9D17B7E3FF004AC762 /* hiraganaButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F8517B7E3FF004AC762 /* hiraganaButton.png */; };
+		98043F9E17B7E3FF004AC762 /* top_gutter.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F8617B7E3FF004AC762 /* top_gutter.png */; };
+		98043F9F17B7E3FF004AC762 /* bottom_gutter.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F8717B7E3FF004AC762 /* bottom_gutter.png */; };
+		98043FA017B7E3FF004AC762 /* vocabButton_hilighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F8817B7E3FF004AC762 /* vocabButton_hilighted.png */; };
+		98043FA117B7E3FF004AC762 /* vocabButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F8917B7E3FF004AC762 /* vocabButton.png */; };
+		98043FA217B7E3FF004AC762 /* gramButton_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F8A17B7E3FF004AC762 /* gramButton_highlighted.png */; };
+		98043FA317B7E3FF004AC762 /* gramButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F8B17B7E3FF004AC762 /* gramButton.png */; };
+		98043FA417B7E3FF004AC762 /* charButton_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F8C17B7E3FF004AC762 /* charButton_highlighted.png */; };
+		98043FA517B7E3FF004AC762 /* charButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F8D17B7E3FF004AC762 /* charButton.png */; };
+		98043FA917B7E47A004AC762 /* vocabselect_top_gutter.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043FA717B7E47A004AC762 /* vocabselect_top_gutter.png */; };
+		98043FAA17B7E47A004AC762 /* vocabselect_bottom_gutter.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043FA817B7E47A004AC762 /* vocabselect_bottom_gutter.png */; };
+		98043FAE17B7E63C004AC762 /* GrammarMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043FAC17B7E63C004AC762 /* GrammarMenuViewController.m */; };
+		98043FAF17B7E63C004AC762 /* GrammarMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98043FAD17B7E63C004AC762 /* GrammarMenuViewController.xib */; };
+		98043FB317B7E6E4004AC762 /* VocabSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043FB117B7E6E4004AC762 /* VocabSetViewController.m */; };
+		98043FB417B7E6E4004AC762 /* VocabSetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98043FB217B7E6E4004AC762 /* VocabSetViewController.xib */; };
+		98043FB917B7E73E004AC762 /* VocabViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043FB717B7E73E004AC762 /* VocabViewerViewController.m */; };
+		98043FBA17B7E73E004AC762 /* VocabViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98043FB817B7E73E004AC762 /* VocabViewerViewController.xib */; };
+		98043FBE17B8BB34004AC762 /* SentenceQuizzerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043FBC17B8BB34004AC762 /* SentenceQuizzerViewController.m */; };
+		98043FBF17B8BB34004AC762 /* SentenceQuizzerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98043FBD17B8BB34004AC762 /* SentenceQuizzerViewController.xib */; };
+		98043FC317B8BB66004AC762 /* AdjConjSifterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043FC117B8BB66004AC762 /* AdjConjSifterViewController.m */; };
+		98043FC417B8BB66004AC762 /* AdjConjSifterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98043FC217B8BB66004AC762 /* AdjConjSifterViewController.xib */; };
+		98043FC817B8BB99004AC762 /* VerbConjSifterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043FC617B8BB99004AC762 /* VerbConjSifterViewController.m */; };
+		98043FC917B8BB99004AC762 /* VerbConjSifterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98043FC717B8BB99004AC762 /* VerbConjSifterViewController.xib */; };
+		98043FCD17B8BFA0004AC762 /* KanjiListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043FCB17B8BFA0004AC762 /* KanjiListViewController.m */; };
+		98043FCE17B8BFA0004AC762 /* KanjiListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98043FCC17B8BFA0004AC762 /* KanjiListViewController.xib */; };
+		98043FD217B8BFAE004AC762 /* KanjiViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043FD017B8BFAD004AC762 /* KanjiViewerViewController.m */; };
+		98043FD317B8BFAE004AC762 /* KanjiViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98043FD117B8BFAD004AC762 /* KanjiViewerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +90,65 @@
 		98043F5F17B7E0DC004AC762 /* CharacterMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterMenuViewController.h; sourceTree = "<group>"; };
 		98043F6017B7E0DC004AC762 /* CharacterMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterMenuViewController.m; sourceTree = "<group>"; };
 		98043F6117B7E0DC004AC762 /* CharacterMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterMenuViewController.xib; sourceTree = "<group>"; };
+		98043F6717B7E229004AC762 /* KanaListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KanaListViewController.h; sourceTree = "<group>"; };
+		98043F6817B7E229004AC762 /* KanaListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KanaListViewController.m; sourceTree = "<group>"; };
+		98043F6917B7E229004AC762 /* KanaListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KanaListViewController.xib; sourceTree = "<group>"; };
+		98043F6C17B7E234004AC762 /* KanaQuizzerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KanaQuizzerViewController.h; sourceTree = "<group>"; };
+		98043F6D17B7E234004AC762 /* KanaQuizzerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KanaQuizzerViewController.m; sourceTree = "<group>"; };
+		98043F6E17B7E234004AC762 /* KanaQuizzerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KanaQuizzerViewController.xib; sourceTree = "<group>"; };
+		98043F7117B7E273004AC762 /* KanaViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KanaViewerViewController.h; sourceTree = "<group>"; };
+		98043F7217B7E273004AC762 /* KanaViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KanaViewerViewController.m; sourceTree = "<group>"; };
+		98043F7317B7E273004AC762 /* KanaViewerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KanaViewerViewController.xib; sourceTree = "<group>"; };
+		98043F7617B7E3FF004AC762 /* gramSelect_top_gutter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gramSelect_top_gutter.png; path = ../../../MUX/testApp/testApp/gramSelect_top_gutter.png; sourceTree = "<group>"; };
+		98043F7717B7E3FF004AC762 /* gramSelect_bottom_gutter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gramSelect_bottom_gutter.png; path = ../../../MUX/testApp/testApp/gramSelect_bottom_gutter.png; sourceTree = "<group>"; };
+		98043F7817B7E3FF004AC762 /* sentenceButton_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sentenceButton_highlighted.png; path = ../../../MUX/testApp/testApp/sentenceButton_highlighted.png; sourceTree = "<group>"; };
+		98043F7917B7E3FF004AC762 /* sentenceButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sentenceButton.png; path = ../../../MUX/testApp/testApp/sentenceButton.png; sourceTree = "<group>"; };
+		98043F7A17B7E3FF004AC762 /* adjButton_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adjButton_highlighted.png; path = ../../../MUX/testApp/testApp/adjButton_highlighted.png; sourceTree = "<group>"; };
+		98043F7B17B7E3FF004AC762 /* adjButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adjButton.png; path = ../../../MUX/testApp/testApp/adjButton.png; sourceTree = "<group>"; };
+		98043F7C17B7E3FF004AC762 /* verbConjButton_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = verbConjButton_highlighted.png; path = ../../../MUX/testApp/testApp/verbConjButton_highlighted.png; sourceTree = "<group>"; };
+		98043F7D17B7E3FF004AC762 /* verbConjButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = verbConjButton.png; path = ../../../MUX/testApp/testApp/verbConjButton.png; sourceTree = "<group>"; };
+		98043F7E17B7E3FF004AC762 /* charPage_top_gutter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charPage_top_gutter.png; path = ../../../MUX/testApp/testApp/charPage_top_gutter.png; sourceTree = "<group>"; };
+		98043F7F17B7E3FF004AC762 /* pink_bottom_gutter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pink_bottom_gutter.png; path = ../../../MUX/testApp/testApp/pink_bottom_gutter.png; sourceTree = "<group>"; };
+		98043F8017B7E3FF004AC762 /* kanjiButton_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kanjiButton_highlighted.png; path = ../../../MUX/testApp/testApp/kanjiButton_highlighted.png; sourceTree = "<group>"; };
+		98043F8117B7E3FF004AC762 /* kanjiButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kanjiButton.png; path = ../../../MUX/testApp/testApp/kanjiButton.png; sourceTree = "<group>"; };
+		98043F8217B7E3FF004AC762 /* katakanaButton_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = katakanaButton_highlighted.png; path = ../../../MUX/testApp/testApp/katakanaButton_highlighted.png; sourceTree = "<group>"; };
+		98043F8317B7E3FF004AC762 /* katakanaButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = katakanaButton.png; path = ../../../MUX/testApp/testApp/katakanaButton.png; sourceTree = "<group>"; };
+		98043F8417B7E3FF004AC762 /* hiraganaButton_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hiraganaButton_highlighted.png; path = ../../../MUX/testApp/testApp/hiraganaButton_highlighted.png; sourceTree = "<group>"; };
+		98043F8517B7E3FF004AC762 /* hiraganaButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hiraganaButton.png; path = ../../../MUX/testApp/testApp/hiraganaButton.png; sourceTree = "<group>"; };
+		98043F8617B7E3FF004AC762 /* top_gutter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = top_gutter.png; path = ../../../MUX/testApp/testApp/top_gutter.png; sourceTree = "<group>"; };
+		98043F8717B7E3FF004AC762 /* bottom_gutter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottom_gutter.png; path = ../../../MUX/testApp/testApp/bottom_gutter.png; sourceTree = "<group>"; };
+		98043F8817B7E3FF004AC762 /* vocabButton_hilighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vocabButton_hilighted.png; path = ../../../MUX/testApp/testApp/vocabButton_hilighted.png; sourceTree = "<group>"; };
+		98043F8917B7E3FF004AC762 /* vocabButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vocabButton.png; path = ../../../MUX/testApp/testApp/vocabButton.png; sourceTree = "<group>"; };
+		98043F8A17B7E3FF004AC762 /* gramButton_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gramButton_highlighted.png; path = ../../../MUX/testApp/testApp/gramButton_highlighted.png; sourceTree = "<group>"; };
+		98043F8B17B7E3FF004AC762 /* gramButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gramButton.png; path = ../../../MUX/testApp/testApp/gramButton.png; sourceTree = "<group>"; };
+		98043F8C17B7E3FF004AC762 /* charButton_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charButton_highlighted.png; path = ../../../MUX/testApp/testApp/charButton_highlighted.png; sourceTree = "<group>"; };
+		98043F8D17B7E3FF004AC762 /* charButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charButton.png; path = ../../../MUX/testApp/testApp/charButton.png; sourceTree = "<group>"; };
+		98043FA717B7E47A004AC762 /* vocabselect_top_gutter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vocabselect_top_gutter.png; path = ../../../MUX/testApp/testApp/vocabselect_top_gutter.png; sourceTree = "<group>"; };
+		98043FA817B7E47A004AC762 /* vocabselect_bottom_gutter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vocabselect_bottom_gutter.png; path = ../../../MUX/testApp/testApp/vocabselect_bottom_gutter.png; sourceTree = "<group>"; };
+		98043FAB17B7E63C004AC762 /* GrammarMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrammarMenuViewController.h; sourceTree = "<group>"; };
+		98043FAC17B7E63C004AC762 /* GrammarMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrammarMenuViewController.m; sourceTree = "<group>"; };
+		98043FAD17B7E63C004AC762 /* GrammarMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GrammarMenuViewController.xib; sourceTree = "<group>"; };
+		98043FB017B7E6E4004AC762 /* VocabSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VocabSetViewController.h; sourceTree = "<group>"; };
+		98043FB117B7E6E4004AC762 /* VocabSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VocabSetViewController.m; sourceTree = "<group>"; };
+		98043FB217B7E6E4004AC762 /* VocabSetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VocabSetViewController.xib; sourceTree = "<group>"; };
+		98043FB617B7E73E004AC762 /* VocabViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VocabViewerViewController.h; sourceTree = "<group>"; };
+		98043FB717B7E73E004AC762 /* VocabViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VocabViewerViewController.m; sourceTree = "<group>"; };
+		98043FB817B7E73E004AC762 /* VocabViewerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VocabViewerViewController.xib; sourceTree = "<group>"; };
+		98043FBB17B8BB34004AC762 /* SentenceQuizzerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentenceQuizzerViewController.h; sourceTree = "<group>"; };
+		98043FBC17B8BB34004AC762 /* SentenceQuizzerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentenceQuizzerViewController.m; sourceTree = "<group>"; };
+		98043FBD17B8BB34004AC762 /* SentenceQuizzerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SentenceQuizzerViewController.xib; sourceTree = "<group>"; };
+		98043FC017B8BB66004AC762 /* AdjConjSifterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjConjSifterViewController.h; sourceTree = "<group>"; };
+		98043FC117B8BB66004AC762 /* AdjConjSifterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdjConjSifterViewController.m; sourceTree = "<group>"; };
+		98043FC217B8BB66004AC762 /* AdjConjSifterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdjConjSifterViewController.xib; sourceTree = "<group>"; };
+		98043FC517B8BB99004AC762 /* VerbConjSifterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerbConjSifterViewController.h; sourceTree = "<group>"; };
+		98043FC617B8BB99004AC762 /* VerbConjSifterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerbConjSifterViewController.m; sourceTree = "<group>"; };
+		98043FC717B8BB99004AC762 /* VerbConjSifterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerbConjSifterViewController.xib; sourceTree = "<group>"; };
+		98043FCA17B8BFA0004AC762 /* KanjiListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KanjiListViewController.h; sourceTree = "<group>"; };
+		98043FCB17B8BFA0004AC762 /* KanjiListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KanjiListViewController.m; sourceTree = "<group>"; };
+		98043FCC17B8BFA0004AC762 /* KanjiListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KanjiListViewController.xib; sourceTree = "<group>"; };
+		98043FCF17B8BFAD004AC762 /* KanjiViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KanjiViewerViewController.h; sourceTree = "<group>"; };
+		98043FD017B8BFAD004AC762 /* KanjiViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KanjiViewerViewController.m; sourceTree = "<group>"; };
+		98043FD117B8BFAD004AC762 /* KanjiViewerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KanjiViewerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +254,9 @@
 		98043F4B17B7DEFC004AC762 /* Grammar Section */ = {
 			isa = PBXGroup;
 			children = (
+				98043FAB17B7E63C004AC762 /* GrammarMenuViewController.h */,
+				98043FAC17B7E63C004AC762 /* GrammarMenuViewController.m */,
+				98043FAD17B7E63C004AC762 /* GrammarMenuViewController.xib */,
 				98043F5617B7E012004AC762 /* Sentence Quizzer */,
 				98043F5517B7E002004AC762 /* Adjective Sifter */,
 				98043F5417B7DFFC004AC762 /* Verb Sifter */,
@@ -166,6 +276,12 @@
 		98043F5317B7DFED004AC762 /* Kanji Viewer */ = {
 			isa = PBXGroup;
 			children = (
+				98043FCA17B8BFA0004AC762 /* KanjiListViewController.h */,
+				98043FCB17B8BFA0004AC762 /* KanjiListViewController.m */,
+				98043FCC17B8BFA0004AC762 /* KanjiListViewController.xib */,
+				98043FCF17B8BFAD004AC762 /* KanjiViewerViewController.h */,
+				98043FD017B8BFAD004AC762 /* KanjiViewerViewController.m */,
+				98043FD117B8BFAD004AC762 /* KanjiViewerViewController.xib */,
 			);
 			name = "Kanji Viewer";
 			sourceTree = "<group>";
@@ -173,6 +289,9 @@
 		98043F5417B7DFFC004AC762 /* Verb Sifter */ = {
 			isa = PBXGroup;
 			children = (
+				98043FC517B8BB99004AC762 /* VerbConjSifterViewController.h */,
+				98043FC617B8BB99004AC762 /* VerbConjSifterViewController.m */,
+				98043FC717B8BB99004AC762 /* VerbConjSifterViewController.xib */,
 			);
 			name = "Verb Sifter";
 			sourceTree = "<group>";
@@ -180,6 +299,9 @@
 		98043F5517B7E002004AC762 /* Adjective Sifter */ = {
 			isa = PBXGroup;
 			children = (
+				98043FC017B8BB66004AC762 /* AdjConjSifterViewController.h */,
+				98043FC117B8BB66004AC762 /* AdjConjSifterViewController.m */,
+				98043FC217B8BB66004AC762 /* AdjConjSifterViewController.xib */,
 			);
 			name = "Adjective Sifter";
 			sourceTree = "<group>";
@@ -187,6 +309,9 @@
 		98043F5617B7E012004AC762 /* Sentence Quizzer */ = {
 			isa = PBXGroup;
 			children = (
+				98043FBB17B8BB34004AC762 /* SentenceQuizzerViewController.h */,
+				98043FBC17B8BB34004AC762 /* SentenceQuizzerViewController.m */,
+				98043FBD17B8BB34004AC762 /* SentenceQuizzerViewController.xib */,
 			);
 			name = "Sentence Quizzer";
 			sourceTree = "<group>";
@@ -194,6 +319,9 @@
 		98043F5717B7E01E004AC762 /* Vocab Set List */ = {
 			isa = PBXGroup;
 			children = (
+				98043FB017B7E6E4004AC762 /* VocabSetViewController.h */,
+				98043FB117B7E6E4004AC762 /* VocabSetViewController.m */,
+				98043FB217B7E6E4004AC762 /* VocabSetViewController.xib */,
 			);
 			name = "Vocab Set List";
 			sourceTree = "<group>";
@@ -201,6 +329,9 @@
 		98043F5817B7E02B004AC762 /* Vocab List Viewer */ = {
 			isa = PBXGroup;
 			children = (
+				98043FB617B7E73E004AC762 /* VocabViewerViewController.h */,
+				98043FB717B7E73E004AC762 /* VocabViewerViewController.m */,
+				98043FB817B7E73E004AC762 /* VocabViewerViewController.xib */,
 			);
 			name = "Vocab List Viewer";
 			sourceTree = "<group>";
@@ -217,6 +348,14 @@
 		98043F5A17B7E052004AC762 /* Grammar Section */ = {
 			isa = PBXGroup;
 			children = (
+				98043F7817B7E3FF004AC762 /* sentenceButton_highlighted.png */,
+				98043F7917B7E3FF004AC762 /* sentenceButton.png */,
+				98043F7A17B7E3FF004AC762 /* adjButton_highlighted.png */,
+				98043F7B17B7E3FF004AC762 /* adjButton.png */,
+				98043F7C17B7E3FF004AC762 /* verbConjButton_highlighted.png */,
+				98043F7D17B7E3FF004AC762 /* verbConjButton.png */,
+				98043F7617B7E3FF004AC762 /* gramSelect_top_gutter.png */,
+				98043F7717B7E3FF004AC762 /* gramSelect_bottom_gutter.png */,
 			);
 			name = "Grammar Section";
 			sourceTree = "<group>";
@@ -224,6 +363,14 @@
 		98043F5B17B7E059004AC762 /* Character Section */ = {
 			isa = PBXGroup;
 			children = (
+				98043F7E17B7E3FF004AC762 /* charPage_top_gutter.png */,
+				98043F7F17B7E3FF004AC762 /* pink_bottom_gutter.png */,
+				98043F8017B7E3FF004AC762 /* kanjiButton_highlighted.png */,
+				98043F8117B7E3FF004AC762 /* kanjiButton.png */,
+				98043F8217B7E3FF004AC762 /* katakanaButton_highlighted.png */,
+				98043F8317B7E3FF004AC762 /* katakanaButton.png */,
+				98043F8417B7E3FF004AC762 /* hiraganaButton_highlighted.png */,
+				98043F8517B7E3FF004AC762 /* hiraganaButton.png */,
 			);
 			name = "Character Section";
 			sourceTree = "<group>";
@@ -231,6 +378,8 @@
 		98043F5C17B7E06F004AC762 /* Vocabulary Section */ = {
 			isa = PBXGroup;
 			children = (
+				98043FA717B7E47A004AC762 /* vocabselect_top_gutter.png */,
+				98043FA817B7E47A004AC762 /* vocabselect_bottom_gutter.png */,
 			);
 			name = "Vocabulary Section";
 			sourceTree = "<group>";
@@ -238,6 +387,7 @@
 		98043F5D17B7E080004AC762 /* Gutters and Backgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				98043FA617B7E415004AC762 /* Main Menu */,
 				98043F5C17B7E06F004AC762 /* Vocabulary Section */,
 				98043F5B17B7E059004AC762 /* Character Section */,
 				98043F5A17B7E052004AC762 /* Grammar Section */,
@@ -264,6 +414,12 @@
 		98043F6517B7E115004AC762 /* List */ = {
 			isa = PBXGroup;
 			children = (
+				98043F6717B7E229004AC762 /* KanaListViewController.h */,
+				98043F6817B7E229004AC762 /* KanaListViewController.m */,
+				98043F6917B7E229004AC762 /* KanaListViewController.xib */,
+				98043F7117B7E273004AC762 /* KanaViewerViewController.h */,
+				98043F7217B7E273004AC762 /* KanaViewerViewController.m */,
+				98043F7317B7E273004AC762 /* KanaViewerViewController.xib */,
 			);
 			name = List;
 			sourceTree = "<group>";
@@ -271,8 +427,26 @@
 		98043F6617B7E11C004AC762 /* Quizzer */ = {
 			isa = PBXGroup;
 			children = (
+				98043F6C17B7E234004AC762 /* KanaQuizzerViewController.h */,
+				98043F6D17B7E234004AC762 /* KanaQuizzerViewController.m */,
+				98043F6E17B7E234004AC762 /* KanaQuizzerViewController.xib */,
 			);
 			name = Quizzer;
+			sourceTree = "<group>";
+		};
+		98043FA617B7E415004AC762 /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				98043F8C17B7E3FF004AC762 /* charButton_highlighted.png */,
+				98043F8D17B7E3FF004AC762 /* charButton.png */,
+				98043F8A17B7E3FF004AC762 /* gramButton_highlighted.png */,
+				98043F8B17B7E3FF004AC762 /* gramButton.png */,
+				98043F8617B7E3FF004AC762 /* top_gutter.png */,
+				98043F8717B7E3FF004AC762 /* bottom_gutter.png */,
+				98043F8817B7E3FF004AC762 /* vocabButton_hilighted.png */,
+				98043F8917B7E3FF004AC762 /* vocabButton.png */,
+			);
+			name = "Main Menu";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +506,43 @@
 				98043F3C17B68EDD004AC762 /* Default-568h@2x.png in Resources */,
 				98043F4217B68EDD004AC762 /* MainMenuViewController.xib in Resources */,
 				98043F6317B7E0DC004AC762 /* CharacterMenuViewController.xib in Resources */,
+				98043F6B17B7E229004AC762 /* KanaListViewController.xib in Resources */,
+				98043F7017B7E234004AC762 /* KanaQuizzerViewController.xib in Resources */,
+				98043F7517B7E273004AC762 /* KanaViewerViewController.xib in Resources */,
+				98043F8E17B7E3FF004AC762 /* gramSelect_top_gutter.png in Resources */,
+				98043F8F17B7E3FF004AC762 /* gramSelect_bottom_gutter.png in Resources */,
+				98043F9017B7E3FF004AC762 /* sentenceButton_highlighted.png in Resources */,
+				98043F9117B7E3FF004AC762 /* sentenceButton.png in Resources */,
+				98043F9217B7E3FF004AC762 /* adjButton_highlighted.png in Resources */,
+				98043F9317B7E3FF004AC762 /* adjButton.png in Resources */,
+				98043F9417B7E3FF004AC762 /* verbConjButton_highlighted.png in Resources */,
+				98043F9517B7E3FF004AC762 /* verbConjButton.png in Resources */,
+				98043F9617B7E3FF004AC762 /* charPage_top_gutter.png in Resources */,
+				98043F9717B7E3FF004AC762 /* pink_bottom_gutter.png in Resources */,
+				98043F9817B7E3FF004AC762 /* kanjiButton_highlighted.png in Resources */,
+				98043F9917B7E3FF004AC762 /* kanjiButton.png in Resources */,
+				98043F9A17B7E3FF004AC762 /* katakanaButton_highlighted.png in Resources */,
+				98043F9B17B7E3FF004AC762 /* katakanaButton.png in Resources */,
+				98043F9C17B7E3FF004AC762 /* hiraganaButton_highlighted.png in Resources */,
+				98043F9D17B7E3FF004AC762 /* hiraganaButton.png in Resources */,
+				98043F9E17B7E3FF004AC762 /* top_gutter.png in Resources */,
+				98043F9F17B7E3FF004AC762 /* bottom_gutter.png in Resources */,
+				98043FA017B7E3FF004AC762 /* vocabButton_hilighted.png in Resources */,
+				98043FA117B7E3FF004AC762 /* vocabButton.png in Resources */,
+				98043FA217B7E3FF004AC762 /* gramButton_highlighted.png in Resources */,
+				98043FA317B7E3FF004AC762 /* gramButton.png in Resources */,
+				98043FA417B7E3FF004AC762 /* charButton_highlighted.png in Resources */,
+				98043FA517B7E3FF004AC762 /* charButton.png in Resources */,
+				98043FA917B7E47A004AC762 /* vocabselect_top_gutter.png in Resources */,
+				98043FAA17B7E47A004AC762 /* vocabselect_bottom_gutter.png in Resources */,
+				98043FAF17B7E63C004AC762 /* GrammarMenuViewController.xib in Resources */,
+				98043FB417B7E6E4004AC762 /* VocabSetViewController.xib in Resources */,
+				98043FBA17B7E73E004AC762 /* VocabViewerViewController.xib in Resources */,
+				98043FBF17B8BB34004AC762 /* SentenceQuizzerViewController.xib in Resources */,
+				98043FC417B8BB66004AC762 /* AdjConjSifterViewController.xib in Resources */,
+				98043FC917B8BB99004AC762 /* VerbConjSifterViewController.xib in Resources */,
+				98043FCE17B8BFA0004AC762 /* KanjiListViewController.xib in Resources */,
+				98043FD317B8BFAE004AC762 /* KanjiViewerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +557,17 @@
 				98043F3617B68EDD004AC762 /* AppDelegate.m in Sources */,
 				98043F3F17B68EDD004AC762 /* MainMenuViewController.m in Sources */,
 				98043F6217B7E0DC004AC762 /* CharacterMenuViewController.m in Sources */,
+				98043F6A17B7E229004AC762 /* KanaListViewController.m in Sources */,
+				98043F6F17B7E234004AC762 /* KanaQuizzerViewController.m in Sources */,
+				98043F7417B7E273004AC762 /* KanaViewerViewController.m in Sources */,
+				98043FAE17B7E63C004AC762 /* GrammarMenuViewController.m in Sources */,
+				98043FB317B7E6E4004AC762 /* VocabSetViewController.m in Sources */,
+				98043FB917B7E73E004AC762 /* VocabViewerViewController.m in Sources */,
+				98043FBE17B8BB34004AC762 /* SentenceQuizzerViewController.m in Sources */,
+				98043FC317B8BB66004AC762 /* AdjConjSifterViewController.m in Sources */,
+				98043FC817B8BB99004AC762 /* VerbConjSifterViewController.m in Sources */,
+				98043FCD17B8BFA0004AC762 /* KanjiListViewController.m in Sources */,
+				98043FD217B8BFAE004AC762 /* KanjiViewerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
