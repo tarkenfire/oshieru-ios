@@ -10,4 +10,7 @@
 
 @interface MainMenuViewController : UIViewController
 
+
+-(IBAction)onClick:(id)sender;
+
 @end

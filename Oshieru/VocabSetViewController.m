@@ -19,6 +19,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.title = @"Vocabulary Sets";
     }
     return self;
 }
@@ -27,6 +28,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    UINavigationBar* navBar = [self.navigationController navigationBar];
+    [navBar setTintColor:[UIColor colorWithRed:0.545 green:0.839 blue:0.718 alpha:1]];
 }
 
 - (void)didReceiveMemoryWarning

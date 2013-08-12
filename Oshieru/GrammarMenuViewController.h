@@ -10,4 +10,6 @@
 
 @interface GrammarMenuViewController : UIViewController
 
+-(IBAction)onClick:(id)sender;
+
 @end

@@ -195,6 +195,7 @@
 		98043F2B17B68EDD004AC762 /* Oshieru */ = {
 			isa = PBXGroup;
 			children = (
+				98043FD417B8C2D9004AC762 /* Data */,
 				98043F5917B7E049004AC762 /* Images */,
 				98043F4817B7DE8E004AC762 /* Views */,
 				98043F2C17B68EDD004AC762 /* Supporting Files */,
@@ -207,13 +208,8 @@
 			children = (
 				98043F3417B68EDD004AC762 /* AppDelegate.h */,
 				98043F3517B68EDD004AC762 /* AppDelegate.m */,
-				98043F2D17B68EDD004AC762 /* Oshieru-Info.plist */,
-				98043F2E17B68EDD004AC762 /* InfoPlist.strings */,
 				98043F3117B68EDD004AC762 /* main.m */,
 				98043F3317B68EDD004AC762 /* Oshieru-Prefix.pch */,
-				98043F3717B68EDD004AC762 /* Default.png */,
-				98043F3917B68EDD004AC762 /* Default@2x.png */,
-				98043F3B17B68EDD004AC762 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -339,6 +335,9 @@
 		98043F5917B7E049004AC762 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				98043F3717B68EDD004AC762 /* Default.png */,
+				98043F3917B68EDD004AC762 /* Default@2x.png */,
+				98043F3B17B68EDD004AC762 /* Default-568h@2x.png */,
 				98043F5E17B7E093004AC762 /* Stroke Orders */,
 				98043F5D17B7E080004AC762 /* Gutters and Backgrounds */,
 			);
@@ -447,6 +446,55 @@
 				98043F8917B7E3FF004AC762 /* vocabButton.png */,
 			);
 			name = "Main Menu";
+			sourceTree = "<group>";
+		};
+		98043FD417B8C2D9004AC762 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				98043FD917B8C3B4004AC762 /* Vocabulary */,
+				98043FD617B8C375004AC762 /* Sentences */,
+				98043FD517B8C36F004AC762 /* Characters */,
+				98043F2D17B68EDD004AC762 /* Oshieru-Info.plist */,
+				98043F2E17B68EDD004AC762 /* InfoPlist.strings */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		98043FD517B8C36F004AC762 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				98043FD817B8C3AD004AC762 /* Kanji */,
+				98043FD717B8C37C004AC762 /* Hiragana and Katakana */,
+			);
+			name = Characters;
+			sourceTree = "<group>";
+		};
+		98043FD617B8C375004AC762 /* Sentences */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sentences;
+			sourceTree = "<group>";
+		};
+		98043FD717B8C37C004AC762 /* Hiragana and Katakana */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Hiragana and Katakana";
+			sourceTree = "<group>";
+		};
+		98043FD817B8C3AD004AC762 /* Kanji */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Kanji;
+			sourceTree = "<group>";
+		};
+		98043FD917B8C3B4004AC762 /* Vocabulary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vocabulary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
