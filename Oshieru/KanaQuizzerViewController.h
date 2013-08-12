@@ -10,4 +10,6 @@
 
 @interface KanaQuizzerViewController : UIViewController
 
+@property int kanaMode;
+
 @end

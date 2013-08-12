@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CharacterDataController.h"
 
 @interface CharacterMenuViewController : UIViewController
+{
+    CharacterDataController* characterDataController;
+}
 
 -(IBAction)onClick:(id)sender;
 

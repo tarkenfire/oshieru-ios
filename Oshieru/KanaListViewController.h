@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CharacterDataController.h"
 
-@interface KanaListViewController : UIViewController
+@interface KanaListViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+{
+    CharacterDataController* characterDataController;
+}
+
+@property NSString* listPath;
 
 @end

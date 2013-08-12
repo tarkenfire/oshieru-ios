@@ -10,4 +10,6 @@
 
 @interface KanaViewerViewController : UIViewController
 
+-(IBAction)onDonePressed:(id)sender;
+
 @end

@@ -32,8 +32,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
     UINavigationBar* navBar = [self.navigationController navigationBar];
     [navBar setTintColor:[UIColor colorWithRed:0.839 green:0.545 blue:0.545 alpha:1]];
+    
+    characterDataController = [CharacterDataController getInstance];
 }
 
 - (void)didReceiveMemoryWarning
@@ -59,10 +62,12 @@
     {
         case 0: //hiragana
             kanaTC.title = @"Hiragana Study";
+            [characterDataController populateKanaList:[[NSBundle mainBundle]pathForResource:@"hiragana" ofType:@"json"]];
             [self.navigationController pushViewController:kanaTC animated:true];
             break;
         case 1: //katakana
             kanaTC.title = @"Katakana Study";
+            [characterDataController populateKanaList:[[NSBundle mainBundle]pathForResource:@"katakana" ofType:@"json"]];
             [self.navigationController pushViewController:kanaTC animated:true];
             break;
         case 2: //kanji

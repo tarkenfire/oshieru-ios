@@ -1,0 +1,434 @@
+[
+ {
+ "char": "ア",
+ "char_roma": "a",
+ "stroke_img": "kata_a_stroke",
+ "origin_kanji": "阿",
+ "spelling_kana": "朝日のア",
+ "spelling_roma": "Asahi no a",
+ "morse_code": "－－･－－"
+ },
+ {
+ "char": "イ",
+ "char_roma": "i",
+ "stroke_img": "kata_i_stroke",
+ "origin_kanji": "伊",
+ "spelling_kana": "いろはのイ",
+ "spelling_roma": "Iroha no i",
+ "morse_code": "･－"
+ },
+ {
+ "char": "ウ",
+ "char_roma": "u",
+ "stroke_img": "kata_u_stroke",
+ "origin_kanji": "宇",
+ "spelling_kana": "上野のウ",
+ "spelling_roma": "Ueno no u",
+ "morse_code": "・・－"
+ },
+ {
+ "char": "エ",
+ "char_roma": "e",
+ "stroke_img": "kata_e_stroke",
+ "origin_kanji": "江",
+ "spelling_kana": "英語のエ",
+ "spelling_roma": "Eigo no e",
+ "morse_code": "－・－－－"
+ },
+ {
+ "char": "オ",
+ "char_roma": "o",
+ "stroke_img": "kata_o_stroke",
+ "origin_kanji": "於",
+ "spelling_kana": "大阪のオ",
+ "spelling_roma": "Osaka no o",
+ "morse_code": "・－・・・"
+ },
+ {
+ "char": "カ",
+ "char_roma": "ka",
+ "stroke_img": "kata_ka_stroke",
+ "origin_kanji": "加",
+ "spelling_kana": "為替のカ",
+ "spelling_roma": "Kawase no ka",
+ "morse_code": "・－・・"
+ },
+ {
+ "char": "キ",
+ "char_roma": "ki",
+ "stroke_img": "kata_ki_stroke",
+ "origin_kanji": "幾",
+ "spelling_kana": "切手のキ",
+ "spelling_roma": "Kitte no ki",
+ "morse_code": "－・－・・"
+ },
+ {
+ "char": "ク",
+ "char_roma": "ku",
+ "stroke_img": "kata_ku_stroke",
+ "origin_kanji": "久",
+ "spelling_kana": "クラブのク",
+ "spelling_roma": "Kurabu no ku",
+ "morse_code": "・・・－"
+ },
+ {
+ "char": "ケ",
+ "char_roma": "ke",
+ "stroke_img": "kata_ke_stroke",
+ "origin_kanji": "介",
+ "spelling_kana": "景色のケ",
+ "spelling_roma": "Keshiki no ki",
+ "morse_code": "－・－－"
+ },
+ {
+ "char": "コ",
+ "char_roma": "ko",
+ "stroke_img": "kata_ko_stroke",
+ "origin_kanji": "己",
+ "spelling_kana": "子供のコ",
+ "spelling_roma": "Kodomo no ko",
+ "morse_code": "－－－－"
+ },
+ {
+ "char": "サ",
+ "char_roma": "sa",
+ "stroke_img": "kata_sa_stroke",
+ "origin_kanji": "散",
+ "spelling_kana": "桜のサ",
+ "spelling_roma": "Sakura no sa",
+ "morse_code": "－・－・－"
+ },
+ {
+ "char": "シ",
+ "char_roma": "shi",
+ "stroke_img": "kata_shi_stroke",
+ "origin_kanji": "之",
+ "spelling_kana": "新聞のシ",
+ "spelling_roma": "Shinbun no shi",
+ "morse_code": "－－・－・"
+ },
+ {
+ "char": "ス",
+ "char_roma": "su",
+ "stroke_img": "kata_su_stroke",
+ "origin_kanji": "須",
+ "spelling_kana": "すずめのス",
+ "spelling_roma": "Suzume no su",
+ "morse_code": "－－－・－"
+ },
+ {
+ "char": "セ",
+ "char_roma": "se",
+ "stroke_img": "kata_se_stroke",
+ "origin_kanji": "世",
+ "spelling_kana": "世界のセ",
+ "spelling_roma": "Sekai no se",
+ "morse_code": "・－－－・"
+ },
+ {
+ "char": "ソ",
+ "char_roma": "so",
+ "stroke_img": "kata_so_stroke",
+ "origin_kanji": "曽",
+ "spelling_kana": "そろばんのソ",
+ "spelling_roma": "Soroban no so",
+ "morse_code": "－－－・"
+ },
+ {
+ "char": "タ",
+ "char_roma": "ta",
+ "stroke_img": "kata_ta_stroke",
+ "origin_kanji": "多",
+ "spelling_kana": "煙草のタ",
+ "spelling_roma": "Tabako no ta",
+ "morse_code": "－・"
+ },
+ {
+ "char": "チ",
+ "char_roma": "chi",
+ "stroke_img": "kata_chi_stroke",
+ "origin_kanji": "千",
+ "spelling_kana": "千鳥のチ",
+ "spelling_roma": "Chidori no chi",
+ "morse_code": "・・－・"
+ },
+ {
+ "char": "ツ",
+ "char_roma": "tsu",
+ "stroke_img": "kata_tsu_stroke",
+ "origin_kanji": "川",
+ "spelling_kana": "つるかめのツ",
+ "spelling_roma": "tsurukame no tsu",
+ "morse_code": "・－－・"
+ },
+ {
+ "char": "テ",
+ "char_roma": "te",
+ "stroke_img": "kata_te_stroke",
+ "origin_kanji": "天",
+ "spelling_kana": "手紙のテ",
+ "spelling_roma": "Tegami no te",
+ "morse_code": "・－・－－"
+ },
+ {
+ "char": "ト",
+ "char_roma": "to",
+ "stroke_img": "kata_to_stroke",
+ "origin_kanji": "止",
+ "spelling_kana": "東京のト",
+ "spelling_roma": "Tokyo no to",
+ "morse_code": "・・－・・"
+ },
+ {
+ "char": "ナ",
+ "char_roma": "na",
+ "stroke_img": "kata_na_stroke",
+ "origin_kanji": "奈",
+ "spelling_kana": "名古屋のナ",
+ "spelling_roma": "Nagoya no na",
+ "morse_code": "・－・"
+ },
+ {
+ "char": "ニ",
+ "char_roma": "ni",
+ "stroke_img": "kata_ni_stroke",
+ "origin_kanji": "仁",
+ "spelling_kana": "日本のニ",
+ "spelling_roma": "Nippon no ni",
+ "morse_code": "－・－・"
+ },
+ {
+ "char": "ヌ",
+ "char_roma": "nu",
+ "stroke_img": "kata_nu_stroke",
+ "origin_kanji": "奴",
+ "spelling_kana": "沼津のヌ",
+ "spelling_roma": "Numazu no nu",
+ "morse_code": "・・・・"
+ },
+ {
+ "char": "ネ",
+ "char_roma": "ne",
+ "stroke_img": "kata_ne_stroke",
+ "origin_kanji": "祢",
+ "spelling_kana": "ねずみのネ",
+ "spelling_roma": "Nezumi no ne",
+ "morse_code": "－－・－"
+ },
+ {
+ "char": "ノ",
+ "char_roma": "no",
+ "stroke_img": "kata_no_stroke",
+ "origin_kanji": "乃",
+ "spelling_kana": "野原のノ",
+ "spelling_roma": "Nohara no no",
+ "morse_code": "・・－－"
+ },
+ {
+ "char": "ハ",
+ "char_roma": "ha",
+ "stroke_img": "kata_ha_stroke",
+ "origin_kanji": "八",
+ "spelling_kana": "はがきのハ",
+ "spelling_roma": "hagakai no ha",
+ "morse_code": "－・・・"
+ },
+ {
+ "char": "ヒ",
+ "char_roma": "hi",
+ "stroke_img": "kata_hi_stroke",
+ "origin_kanji": "比",
+ "spelling_kana": "飛行機のヒ",
+ "spelling_roma": "Hikoki no hi",
+ "morse_code": "－－・・－"
+ },
+ {
+ "char": "フ",
+ "char_roma": "fu",
+ "stroke_img": "kata_fu_stroke",
+ "origin_kanji": "不",
+ "spelling_kana": "富士山のフ",
+ "spelling_roma": "Fujisan no fu",
+ "morse_code": "－－・・"
+ },
+ {
+ "char": "ヘ",
+ "char_roma": "he",
+ "stroke_img": "kata_he_stroke",
+ "origin_kanji": "部",
+ "spelling_kana": "平和のヘ",
+ "spelling_roma": "Heiwa no he",
+ "morse_code": "・"
+ },
+ {
+ "char": "ホ",
+ "char_roma": "ho",
+ "stroke_img": "kata_ho_stroke",
+ "origin_kanji": "保",
+ "spelling_kana": "保険のホ",
+ "spelling_roma": "Hoken no ho",
+ "morse_code": "－・・"
+ },
+ {
+ "char": "マ",
+ "char_roma": "ma",
+ "stroke_img": "kata_ma_stroke",
+ "origin_kanji": "末",
+ "spelling_kana": "マッチのマ",
+ "spelling_roma": "Matchi no ma",
+ "morse_code": "－・・－"
+ },
+ {
+ "char": "ミ",
+ "char_roma": "mi",
+ "stroke_img": "kata_mi_stroke",
+ "origin_kanji": "三",
+ "spelling_kana": "三笠のミ",
+ "spelling_roma": "Mikasa no mi",
+ "morse_code": "・・－・－"
+ },
+ {
+ "char": "ム",
+ "char_roma": "mu",
+ "stroke_img": "kata_mu_stroke",
+ "origin_kanji": "牟",
+ "spelling_kana": "無線のム",
+ "spelling_roma": "Musen no mu",
+ "morse_code": "－"
+ },
+ {
+ "char": "メ",
+ "char_roma": "me",
+ "stroke_img": "kata_me_stroke",
+ "origin_kanji": "女",
+ "spelling_kana": "明治のメ",
+ "spelling_roma": "Meiji no me",
+ "morse_code": "－・・・－"
+ },
+ {
+ "char": "モ",
+ "char_roma": "mo",
+ "stroke_img": "kata_mo_stroke",
+ "origin_kanji": "毛",
+ "spelling_kana": "もみじのモ",
+ "spelling_roma": "Momijo no mo",
+ "morse_code": "－・・－・"
+ },
+ {
+ "char": "ヤ",
+ "char_roma": "ya",
+ "stroke_img": "kata_ya_stroke",
+ "origin_kanji": "也",
+ "spelling_kana": "大和のヤ",
+ "spelling_roma": "Yamato no ya",
+ "morse_code": "・－－"
+ },
+ {
+ "char": "ユ",
+ "char_roma": "yu",
+ "stroke_img": "kata_yu_stroke",
+ "origin_kanji": "由",
+ "spelling_kana": "弓矢のユ",
+ "spelling_roma": "Yumiya no yu",
+ "morse_code": "－・・－－"
+ },
+ {
+ "char": "ヨ",
+ "char_roma": "yo",
+ "stroke_img": "kata_yo_stroke",
+ "origin_kanji": "與",
+ "spelling_kana": "吉野のヨ",
+ "spelling_roma": "Yoshino no yo",
+ "morse_code": "－－"
+ },
+ {
+ "char": "ラ",
+ "char_roma": "ra",
+ "stroke_img": "kata_ra_stroke",
+ "origin_kanji": "良",
+ "spelling_kana": "ラジオのラ",
+ "spelling_roma": "Rajio no ra",
+ "morse_code": "・・・"
+ },
+ {
+ "char": "リ",
+ "char_roma": "ri",
+ "stroke_img": "kata_ri_stroke",
+ "origin_kanji": "利",
+ "spelling_kana": "りんごのリ",
+ "spelling_roma": "Ringo no ri",
+ "morse_code": "－－・"
+ },
+ {
+ "char": "ル",
+ "char_roma": "ru",
+ "stroke_img": "kata_ru_stroke",
+ "origin_kanji": "流",
+ "spelling_kana": "留守居のル",
+ "spelling_roma": "Rusui no ru",
+ "morse_code": "－・－－・"
+ },
+ {
+ "char": "レ",
+ "char_roma": "re",
+ "stroke_img": "kata_re_stroke",
+ "origin_kanji": "礼",
+ "spelling_kana": "れんげのレ",
+ "spelling_roma": "Renge no re",
+ "morse_code": "－－－"
+ },
+ {
+ "char": "ロ",
+ "char_roma": "ro",
+ "stroke_img": "kata_ro_stroke",
+ "origin_kanji": "呂",
+ "spelling_kana": "ローマのロ",
+ "spelling_roma": "Roma no ro",
+ "morse_code": "・－・－"
+ },
+ {
+ "char": "ワ",
+ "char_roma": "wa",
+ "stroke_img": "kata_wa_stroke",
+ "origin_kanji": "和",
+ "spelling_kana": "わらびのワ",
+ "spelling_roma": "Warabi no wa",
+ "morse_code": "－・－"
+ },
+ {
+ "char": "ヰ",
+ "char_roma": "wi",
+ "stroke_img": "kata_wi_stroke",
+ "origin_kanji": "井",
+ "spelling_kana": "ゐどのヰ",
+ "spelling_roma": "Wido no wi",
+ "morse_code": "・－・・－"
+ },
+ {
+ "char": "ヱ",
+ "char_roma": "we",
+ "stroke_img": "kata_we_stroke",
+ "origin_kanji": "恵",
+ "spelling_kana": "かぎのあるヱ",
+ "spelling_roma": "Kagi no aru e",
+ "morse_code": "・－－・・"
+ },
+ {
+ "char": "ヲ",
+ "char_roma": "wo",
+ "stroke_img": "kata_wo_stroke",
+ "origin_kanji": "乎",
+ "spelling_kana": "尾張のヲ",
+ "spelling_roma": "Wowari no wo",
+ "morse_code": "・－－－"
+ },
+ {
+ "char": "ン",
+ "char_roma": "n",
+ "stroke_img": "kata_n_stroke",
+ "origin_kanji": "尓",
+ "spelling_kana": "おしまいのン",
+ "spelling_roma": "Oshimai no n",
+ "morse_code": "・－・－・"
+ }
+ ]
