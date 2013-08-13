@@ -19,6 +19,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.title = @"Character Quiz";
+        self.tabBarItem.image = [UIImage imageNamed:@"quizIcon"];
     }
     return self;
 }

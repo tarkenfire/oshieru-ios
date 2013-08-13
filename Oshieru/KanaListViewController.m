@@ -20,6 +20,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.title = @"Character List";
+        self.tabBarItem.image = [UIImage imageNamed:@"listIcon"];
     }
     return self;
 }

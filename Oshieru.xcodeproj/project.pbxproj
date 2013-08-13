@@ -167,6 +167,8 @@
 		980440A217B947F8004AC762 /* kata_u_stroke.png in Resources */ = {isa = PBXBuildFile; fileRef = 9804407217B947F8004AC762 /* kata_u_stroke.png */; };
 		980440A317B947F8004AC762 /* kata_i_stroke.png in Resources */ = {isa = PBXBuildFile; fileRef = 9804407317B947F8004AC762 /* kata_i_stroke.png */; };
 		980440A417B947F8004AC762 /* kata_a_stroke.png in Resources */ = {isa = PBXBuildFile; fileRef = 9804407417B947F8004AC762 /* kata_a_stroke.png */; };
+		980440A717BA3ED7004AC762 /* quizIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 980440A517BA3ED6004AC762 /* quizIcon.png */; };
+		980440A817BA3ED7004AC762 /* listIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 980440A617BA3ED7004AC762 /* listIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -348,6 +350,8 @@
 		9804407217B947F8004AC762 /* kata_u_stroke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kata_u_stroke.png; sourceTree = "<group>"; };
 		9804407317B947F8004AC762 /* kata_i_stroke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kata_i_stroke.png; sourceTree = "<group>"; };
 		9804407417B947F8004AC762 /* kata_a_stroke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kata_a_stroke.png; sourceTree = "<group>"; };
+		980440A517BA3ED6004AC762 /* quizIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quizIcon.png; path = ../../../MUX/testApp/testApp/quizIcon.png; sourceTree = "<group>"; };
+		980440A617BA3ED7004AC762 /* listIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = listIcon.png; path = ../../../MUX/testApp/testApp/listIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -562,6 +566,8 @@
 		98043F5B17B7E059004AC762 /* Character Section */ = {
 			isa = PBXGroup;
 			children = (
+				980440A517BA3ED6004AC762 /* quizIcon.png */,
+				980440A617BA3ED7004AC762 /* listIcon.png */,
 				98043F7E17B7E3FF004AC762 /* charPage_top_gutter.png */,
 				98043F7F17B7E3FF004AC762 /* pink_bottom_gutter.png */,
 				98043F8017B7E3FF004AC762 /* kanjiButton_highlighted.png */,
@@ -1012,6 +1018,8 @@
 				980440A217B947F8004AC762 /* kata_u_stroke.png in Resources */,
 				980440A317B947F8004AC762 /* kata_i_stroke.png in Resources */,
 				980440A417B947F8004AC762 /* kata_a_stroke.png in Resources */,
+				980440A717BA3ED7004AC762 /* quizIcon.png in Resources */,
+				980440A817BA3ED7004AC762 /* listIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

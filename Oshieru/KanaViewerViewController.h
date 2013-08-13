@@ -7,8 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CharacterDataController.h"
 
 @interface KanaViewerViewController : UIViewController
+{
+    IBOutlet UILabel* kanaDisplay;
+    IBOutlet UILabel* originKana;
+    IBOutlet UILabel* spellingKana;
+    IBOutlet UILabel* spellingKanaRoma;
+    IBOutlet UILabel* morseCode;
+    
+    IBOutlet UIImageView* strokeOrder;
+    
+    IBOutlet UINavigationBar* localNavBar;
+    
+    CharacterDataController* characterDataController;
+}
 
 -(IBAction)onDonePressed:(id)sender;
 
