@@ -13,8 +13,6 @@
 		98043F3017B68EDD004AC762 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98043F2E17B68EDD004AC762 /* InfoPlist.strings */; };
 		98043F3217B68EDD004AC762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043F3117B68EDD004AC762 /* main.m */; };
 		98043F3617B68EDD004AC762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043F3517B68EDD004AC762 /* AppDelegate.m */; };
-		98043F3817B68EDD004AC762 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F3717B68EDD004AC762 /* Default.png */; };
-		98043F3A17B68EDD004AC762 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F3917B68EDD004AC762 /* Default@2x.png */; };
 		98043F3C17B68EDD004AC762 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98043F3B17B68EDD004AC762 /* Default-568h@2x.png */; };
 		98043F3F17B68EDD004AC762 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98043F3E17B68EDD004AC762 /* MainMenuViewController.m */; };
 		98043F4217B68EDD004AC762 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98043F4017B68EDD004AC762 /* MainMenuViewController.xib */; };
@@ -169,6 +167,10 @@
 		980440A417B947F8004AC762 /* kata_a_stroke.png in Resources */ = {isa = PBXBuildFile; fileRef = 9804407417B947F8004AC762 /* kata_a_stroke.png */; };
 		980440A717BA3ED7004AC762 /* quizIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 980440A517BA3ED6004AC762 /* quizIcon.png */; };
 		980440A817BA3ED7004AC762 /* listIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 980440A617BA3ED7004AC762 /* listIcon.png */; };
+		98834FA517BDBCDE00DF9A81 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98834FA417BDBCDE00DF9A81 /* Default@2x.png */; };
+		98834FA717BDBCE700DF9A81 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 98834FA617BDBCE600DF9A81 /* Default.png */; };
+		98F5C18D17BBBE2E00833E26 /* QuizController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F5C18C17BBBE2E00833E26 /* QuizController.m */; };
+		98F5C19017BBC8A000833E26 /* PsuedoStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F5C18F17BBC8A000833E26 /* PsuedoStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -182,8 +184,6 @@
 		98043F3317B68EDD004AC762 /* Oshieru-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Oshieru-Prefix.pch"; sourceTree = "<group>"; };
 		98043F3417B68EDD004AC762 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		98043F3517B68EDD004AC762 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		98043F3717B68EDD004AC762 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		98043F3917B68EDD004AC762 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		98043F3B17B68EDD004AC762 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		98043F3D17B68EDD004AC762 /* MainMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
 		98043F3E17B68EDD004AC762 /* MainMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
@@ -352,6 +352,12 @@
 		9804407417B947F8004AC762 /* kata_a_stroke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kata_a_stroke.png; sourceTree = "<group>"; };
 		980440A517BA3ED6004AC762 /* quizIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quizIcon.png; path = ../../../MUX/testApp/testApp/quizIcon.png; sourceTree = "<group>"; };
 		980440A617BA3ED7004AC762 /* listIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = listIcon.png; path = ../../../MUX/testApp/testApp/listIcon.png; sourceTree = "<group>"; };
+		98834FA417BDBCDE00DF9A81 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		98834FA617BDBCE600DF9A81 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		98F5C18B17BBBE2E00833E26 /* QuizController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizController.h; sourceTree = "<group>"; };
+		98F5C18C17BBBE2E00833E26 /* QuizController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizController.m; sourceTree = "<group>"; };
+		98F5C18E17BBC8A000833E26 /* PsuedoStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PsuedoStack.h; sourceTree = "<group>"; };
+		98F5C18F17BBC8A000833E26 /* PsuedoStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PsuedoStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -371,6 +377,8 @@
 		98043F1917B68EDD004AC762 = {
 			isa = PBXGroup;
 			children = (
+				98834FA617BDBCE600DF9A81 /* Default.png */,
+				98834FA417BDBCDE00DF9A81 /* Default@2x.png */,
 				98043F2B17B68EDD004AC762 /* Oshieru */,
 				98043F2417B68EDD004AC762 /* Frameworks */,
 				98043F2317B68EDD004AC762 /* Products */,
@@ -414,6 +422,8 @@
 				98043F3517B68EDD004AC762 /* AppDelegate.m */,
 				98043F3117B68EDD004AC762 /* main.m */,
 				98043F3317B68EDD004AC762 /* Oshieru-Prefix.pch */,
+				98F5C18E17BBC8A000833E26 /* PsuedoStack.h */,
+				98F5C18F17BBC8A000833E26 /* PsuedoStack.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -539,8 +549,6 @@
 		98043F5917B7E049004AC762 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				98043F3717B68EDD004AC762 /* Default.png */,
-				98043F3917B68EDD004AC762 /* Default@2x.png */,
 				98043F3B17B68EDD004AC762 /* Default-568h@2x.png */,
 				98043F5E17B7E093004AC762 /* Stroke Orders */,
 				98043F5D17B7E080004AC762 /* Gutters and Backgrounds */,
@@ -712,6 +720,8 @@
 			children = (
 				98043FE017B92B3A004AC762 /* CharacterDataController.h */,
 				98043FE117B92B3A004AC762 /* CharacterDataController.m */,
+				98F5C18B17BBBE2E00833E26 /* QuizController.h */,
+				98F5C18C17BBBE2E00833E26 /* QuizController.m */,
 			);
 			name = "Data Controllers";
 			sourceTree = "<group>";
@@ -878,8 +888,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				98043F3017B68EDD004AC762 /* InfoPlist.strings in Resources */,
-				98043F3817B68EDD004AC762 /* Default.png in Resources */,
-				98043F3A17B68EDD004AC762 /* Default@2x.png in Resources */,
 				98043F3C17B68EDD004AC762 /* Default-568h@2x.png in Resources */,
 				98043F4217B68EDD004AC762 /* MainMenuViewController.xib in Resources */,
 				98043F6317B7E0DC004AC762 /* CharacterMenuViewController.xib in Resources */,
@@ -1020,6 +1028,8 @@
 				980440A417B947F8004AC762 /* kata_a_stroke.png in Resources */,
 				980440A717BA3ED7004AC762 /* quizIcon.png in Resources */,
 				980440A817BA3ED7004AC762 /* listIcon.png in Resources */,
+				98834FA517BDBCDE00DF9A81 /* Default@2x.png in Resources */,
+				98834FA717BDBCE700DF9A81 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1046,6 +1056,8 @@
 				98043FCD17B8BFA0004AC762 /* KanjiListViewController.m in Sources */,
 				98043FD217B8BFAE004AC762 /* KanjiViewerViewController.m in Sources */,
 				98043FE217B92B3B004AC762 /* CharacterDataController.m in Sources */,
+				98F5C18D17BBBE2E00833E26 /* QuizController.m in Sources */,
+				98F5C19017BBC8A000833E26 /* PsuedoStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1168,6 +1180,7 @@
 				98043F4717B68EDD004AC762 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

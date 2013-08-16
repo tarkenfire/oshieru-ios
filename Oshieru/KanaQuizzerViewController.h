@@ -7,9 +7,30 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QuizController.h"
 
-@interface KanaQuizzerViewController : UIViewController
+@interface KanaQuizzerViewController : UIViewController <UIAlertViewDelegate>
+{
+    IBOutlet UIButton* firstButton;
+    IBOutlet UIButton* secondButton;
+    IBOutlet UIButton* thirdButton;
+    IBOutlet UIButton* fourthButton;
+    
+    IBOutlet UILabel* displayKana;
+    IBOutlet UILabel* correctLabel;
+    IBOutlet UILabel* incorrectLabel;
+    
+    QuizController* quizController;
+    
+    int correctAnswer;
+    int numCorrectAnswers;
+    int numIncorrectAnswers;
+    
+    id nextQuestion;
+    
+}
 
-@property int kanaMode;
+
+-(IBAction)onClick:(id)sender;
 
 @end

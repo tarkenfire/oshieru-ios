@@ -29,6 +29,7 @@
     // Do any additional setup after loading the view from its nib.
     characterDataController = [CharacterDataController getInstance];
     
+    //create object for character
     NSDictionary* selectedCharacter = characterDataController.kanaList[characterDataController.selectedIndex];
     
     localNavBar.topItem.title = [NSString stringWithFormat:@"Details for %@(%@)", [selectedCharacter objectForKey:@"char"], [selectedCharacter objectForKey:@"char_roma"]];
