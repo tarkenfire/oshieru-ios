@@ -1,0 +1,55 @@
+{
+    "set_name": "Animals",
+    "vocab": [
+              {
+              "kana": "熊",
+              "roma": "kuma",
+              "meaning": "Bear"
+              },
+              {
+              "kana": "鳥",
+              "roma": "tori",
+              "meaning": "Bird"
+              },
+              {
+              "kana": "猫",
+              "roma": "neko",
+              "meaning": "Cat"
+              },
+              {
+              "kana": "牛",
+              "roma": "ushi",
+              "meaning": "Cow"
+              },
+              {
+              "kana": "象",
+              "roma": "Zou",
+              "meaning": "Elephant"
+              },
+              {
+              "kana": "かえる",
+              "roma": "Kaeru",
+              "meaning": "Frog"
+              },
+              {
+              "kana": "いるか",
+              "roma": "iruka",
+              "meaning": "Dolphin"
+              },
+              {
+              "kana": "しまうま",
+              "roma": "shimauma",
+              "meaning": "Zebra"
+              },
+              {
+              "kana": "あざらし",
+              "roma": "azarashi",
+              "meaning": "Seal"
+              },
+              {
+              "kana": "りす",
+              "roma": "Risu",
+              "meaning": "Squirrel"
+              }
+              ]
+}

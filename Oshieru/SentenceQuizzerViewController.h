@@ -7,7 +7,28 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SentenceQuizController.h"
 
-@interface SentenceQuizzerViewController : UIViewController
+@interface SentenceQuizzerViewController : UIViewController <UIAlertViewDelegate>
+{
+    SentenceQuizController* sentenceQuizController;
+    
+    IBOutlet UIButton* firstButton;
+    IBOutlet UIButton* secondButton;
+    IBOutlet UIButton* thirdButton;
+    IBOutlet UIButton* fourthButton;
+    
+    IBOutlet UILabel* display;
+    IBOutlet UILabel* correctLabel;
+    IBOutlet UILabel* incorrectLabel;
+    
+    int correctAnswer;
+    int numCorrectAnswers;
+    int numIncorrectAnswers;
+    
+    id nextQuestion;
+}
+
+-(IBAction)onClick:(id)sender;
 
 @end

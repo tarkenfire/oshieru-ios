@@ -1,0 +1,55 @@
+{
+    "set_name": "Weather",
+    "vocab": [
+              {
+              "kana": "天気",
+              "roma": "tenki",
+              "meaning": "weather"
+              },
+              {
+              "kana": "よい天気です",
+              "roma": "Yoi tenki desu",
+              "meaning": "The weather is nice"
+              },
+              {
+              "kana": "雨が降っています",
+              "roma": "Ame ga futte imasu",
+              "meaning": "It is raining"
+              },
+              {
+              "kana": "雨",
+              "roma": "ame",
+              "meaning": "Rain"
+              },
+              {
+              "kana": "天気はどうですか",
+              "roma": "Tenki wa doi desuka",
+              "meaning": "How is the weather?"
+              },
+              {
+              "kana": "雪",
+              "roma": "yuki",
+              "meaning": "Snow"
+              },
+              {
+              "kana": "雪が降っています",
+              "roma": "Yuki ga futte imasu",
+              "meaning": "It is snowing"
+              },
+              {
+              "kana": "嵐",
+              "roma": "arashi",
+              "meaning": "Storm"
+              },
+              {
+              "kana": "あざらし",
+              "roma": "azarashi",
+              "meaning": "Seal"
+              },
+              {
+              "kana": "りす",
+              "roma": "Risu",
+              "meaning": "Squirrel"
+              }
+              ]
+}
