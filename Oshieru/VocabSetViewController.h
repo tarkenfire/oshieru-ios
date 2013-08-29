@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VocabularyController.h"
 
-@interface VocabSetViewController : UIViewController
+@interface VocabSetViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
+{
+    VocabularyController* vocabController;
+    IBOutlet UICollectionView* colView;
+}
 
 @end

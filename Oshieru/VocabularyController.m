@@ -24,14 +24,23 @@ static VocabularyController* _instance = nil;
 -(id)init
 {
     self = [super init];
-    
+    self.vocabSets = [[NSMutableArray alloc] init];
     return self;
 }
 
 //public methods
+
+//allows for loading as many JSON vocab lists as the programmer/user desires
 -(void)loadVocabListWithFileName:(NSString*)name
 {
+    NSString* truePath = [[NSBundle mainBundle]pathForResource:name ofType:@"json"];
     
+    NSString* JSONData = [[NSString alloc] initWithContentsOfFile:truePath encoding:NSUTF8StringEncoding error:nil];
+    
+    NSData* data = [JSONData dataUsingEncoding:NSUTF8StringEncoding];
+    
+    //add json object to array
+    [self.vocabSets addObject:[NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil]];
 }
 
 -(NSDictionary*)getVocabListAtIndex:(int)index
@@ -44,7 +53,6 @@ static VocabularyController* _instance = nil;
     NSDictionary* holder = [self.vocabSets objectAtIndex:index];
     
     return [holder objectForKey:@"set_name"];
-
 }
 
 -(int)vocabListCount

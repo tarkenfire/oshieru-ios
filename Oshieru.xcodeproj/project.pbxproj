@@ -258,6 +258,10 @@
 		9883509517C6EC3300DF9A81 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 9883509417C6EC3300DF9A81 /* animals.json */; };
 		9883509717C6ECB600DF9A81 /* weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 9883509617C6ECB600DF9A81 /* weather.json */; };
 		9883509A17C6EE0F00DF9A81 /* VocabularyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9883509917C6EE0C00DF9A81 /* VocabularyController.m */; };
+		9883509D17C6F80600DF9A81 /* VocabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9883509C17C6F80600DF9A81 /* VocabCell.m */; };
+		9883509F17C6F81700DF9A81 /* VocabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9883509E17C6F81600DF9A81 /* VocabCell.xib */; };
+		988350A117C6FF4600DF9A81 /* VocabDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 988350A017C6FF4600DF9A81 /* VocabDetailCell.xib */; };
+		988350A417C6FF6500DF9A81 /* VocabDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 988350A317C6FF6500DF9A81 /* VocabDetailCell.m */; };
 		98F5C18D17BBBE2E00833E26 /* QuizController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F5C18C17BBBE2E00833E26 /* QuizController.m */; };
 		98F5C19017BBC8A000833E26 /* PsuedoStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F5C18F17BBC8A000833E26 /* PsuedoStack.m */; };
 /* End PBXBuildFile section */
@@ -537,6 +541,12 @@
 		9883509617C6ECB600DF9A81 /* weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weather.json; sourceTree = "<group>"; };
 		9883509817C6EE0C00DF9A81 /* VocabularyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VocabularyController.h; sourceTree = "<group>"; };
 		9883509917C6EE0C00DF9A81 /* VocabularyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VocabularyController.m; sourceTree = "<group>"; };
+		9883509B17C6F80600DF9A81 /* VocabCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VocabCell.h; sourceTree = "<group>"; };
+		9883509C17C6F80600DF9A81 /* VocabCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VocabCell.m; sourceTree = "<group>"; };
+		9883509E17C6F81600DF9A81 /* VocabCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VocabCell.xib; sourceTree = "<group>"; };
+		988350A017C6FF4600DF9A81 /* VocabDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VocabDetailCell.xib; sourceTree = "<group>"; };
+		988350A217C6FF6500DF9A81 /* VocabDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VocabDetailCell.h; sourceTree = "<group>"; };
+		988350A317C6FF6500DF9A81 /* VocabDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VocabDetailCell.m; sourceTree = "<group>"; };
 		98F5C18B17BBBE2E00833E26 /* QuizController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizController.h; sourceTree = "<group>"; };
 		98F5C18C17BBBE2E00833E26 /* QuizController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizController.m; sourceTree = "<group>"; };
 		98F5C18E17BBC8A000833E26 /* PsuedoStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PsuedoStack.h; sourceTree = "<group>"; };
@@ -721,6 +731,9 @@
 				98043FB017B7E6E4004AC762 /* VocabSetViewController.h */,
 				98043FB117B7E6E4004AC762 /* VocabSetViewController.m */,
 				98043FB217B7E6E4004AC762 /* VocabSetViewController.xib */,
+				9883509B17C6F80600DF9A81 /* VocabCell.h */,
+				9883509C17C6F80600DF9A81 /* VocabCell.m */,
+				9883509E17C6F81600DF9A81 /* VocabCell.xib */,
 			);
 			name = "Vocab Set List";
 			sourceTree = "<group>";
@@ -731,6 +744,9 @@
 				98043FB617B7E73E004AC762 /* VocabViewerViewController.h */,
 				98043FB717B7E73E004AC762 /* VocabViewerViewController.m */,
 				98043FB817B7E73E004AC762 /* VocabViewerViewController.xib */,
+				988350A017C6FF4600DF9A81 /* VocabDetailCell.xib */,
+				988350A217C6FF6500DF9A81 /* VocabDetailCell.h */,
+				988350A317C6FF6500DF9A81 /* VocabDetailCell.m */,
 			);
 			name = "Vocab List Viewer";
 			sourceTree = "<group>";
@@ -1407,6 +1423,8 @@
 				9883509017C6BFE700DF9A81 /* sentences.json in Resources */,
 				9883509517C6EC3300DF9A81 /* animals.json in Resources */,
 				9883509717C6ECB600DF9A81 /* weather.json in Resources */,
+				9883509F17C6F81700DF9A81 /* VocabCell.xib in Resources */,
+				988350A117C6FF4600DF9A81 /* VocabDetailCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1440,6 +1458,8 @@
 				9883508C17C5B46A00DF9A81 /* KanjiCell.m in Sources */,
 				9883509317C6CF2A00DF9A81 /* SentenceQuizController.m in Sources */,
 				9883509A17C6EE0F00DF9A81 /* VocabularyController.m in Sources */,
+				9883509D17C6F80600DF9A81 /* VocabCell.m in Sources */,
+				988350A417C6FF6500DF9A81 /* VocabDetailCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VocabViewerViewController : UIViewController
+@interface VocabViewerViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+{
+    NSArray* vocabWords;
+}
+
+@property NSDictionary* vocabSet;
 
 @end
